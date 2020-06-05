@@ -1,0 +1,62 @@
+# Responsibilities
+
+As of Spring Semester 2020, the organizational structure of Eagle I.O is:
+
+<center>
+![](images/orgchart.PNG)
+</center> 
+
+```{r Notes, include=FALSE}
+
+## Number sincluded in Chart 
+#                listens/executes
+# directs            faculty governance marketing mentorship engagement parliment
+# faculty             0         10        8         1         10         1
+# governrance         10        0         5         5          2         3
+# marketing           3         3         0         3          7         5 
+# mentorship          3         5         6         0          0         6 
+# engaement           10        5         5         0          0         1
+# parliment           7         10        3         1          1         0
+
+### Changed 2/19/20 (took out self loops [diagonals] and made categories directs/listens)
+
+```
+
+
+
+
+```{r FunkyInteractiveChart, include=TRUE, echo=FALSE, warning=FALSE, message=FALSE, fig.height=11}
+
+## library(DiagrammeR)
+
+## DiagrammeR("graph TB;
+##    A(Rounded)-->B[Squared];
+##    B---C{Rhombus!};
+##    C-->D>flag shape];
+##    C-->E((Circle));")
+
+### Trying with Eagle I.O
+
+m <- matrix(c(0, 10, 8, 1, 10, 1,
+              10, 0, 5, 5, 2,  3,     
+              3,  3, 0, 3, 7,  5,  
+              3,  5, 6, 0, 0,  6,     
+              10, 5, 5, 0, 0,  1,   
+              7, 10, 3, 1, 1,  0),              
+            byrow = TRUE,
+            nrow = 6, ncol = 6)
+contact <- c("Faculty", "Governance", "Marketing", "Mentorship", "Engagement", "Parliment")
+dimnames(m) <- list(plans = contact,
+                    executes = contact)
+
+
+library(chorddiag)
+groupColors <- c("#000000", "#FFDD89", "#957244", "#FF0000", "#8B0000", "#FF8C00")
+chorddiag(m, groupColors = groupColors, showTicks = F, groupnamePadding = 20, groupnameFontsize = 12)
+
+```
+
+Additional roles can be assigned on an as neded (e.g., project-by-project) basis. The primary responsibilities of these position holders is presented below. Note that elected officers and program managers always function as team leads - they are ultimately responsible for the listed information, but they are expected to execute tasks within teams:
+
+
+

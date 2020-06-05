@@ -1,0 +1,42 @@
+--- 
+title: "Eagle I.O Consultant Manual"
+author: "Eagle I.O"
+date: 'Most recently updated `r format(Sys.time(), "%A %B %d %Y %X")` Eastern'
+site: bookdown::bookdown_site
+always_allow_html: yes
+documentclass: book
+cover-image: "images/eagleio.PNG"
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This is the student consultant handbook for members of Eagle I.O. The output format for this example is bookdown::gitbook."
+---
+
+# Homepage {-#homepage} 
+
+<center>
+![](images/eagleio.PNG)
+</center> 
+
+This is the student consultant handbook for members of Eagle I.O. Herein lie expectations, responsibilities, and strategy to keep Eagle I.O sustailable with future [Montclair State University I/O Psychology](https://www.montclair.edu/psychology/graduate-programs/industrial-organizational-psychology/) cohorts...
+
+
+# Introduction
+
++ This is the participation manual for Eagle I.O student consultants. It contains the expectations, roles, and responsibilities of MSU graduate students who are *also* members of Eagle I.O.
++ Members are expected to participate for 1.5 years (one Fall semester, two Spring semesters, and to be reasonably available over Winter and Summer breaks)
++ As of Spring semester 2020, the ongoing projects that Eagle I.O manages include: 
+    1) a [mentorship program](https://bookdown.org/kulasj/mentoruser/) between the 1^st^ and 2^nd^ year MSU I.O Masters' program student cohorts, 
+    2) an engagement survey, and 
+    3) this student consultant manual (which includes, for example, a succession plan to sustain and grow Eagle I.O)
++ Future aspirations are to have Eagle I.O. be a client-facing organization that can provide student-led solutions to external clients
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+

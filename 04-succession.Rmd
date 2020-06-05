@@ -1,0 +1,35 @@
+# Succession Planning
+
+* Framework: 
+    + Lens to get new mentees
+    + Recruitment and selection
+    + Identify possible Eagle IO members 
+    + Criteria: 
+        + GPA
+        + Organizational Citizenship Behavior (OCB's)
+        + Involvement in Mentorship program
+
+* Process:
+    + Role assignments will be discussed after first years       have shadowed for a semester (shadowing occurs Spring       semester)
+        + Shadowing = come to meetings
+
+
+
+```{r echo=FALSE, warning=FALSE, results='asis', message=FALSE}
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+events <- read.csv("onboard.csv")
+
+kable(events, "html", booktabs = T) %>%
+  kable_styling("striped", full_width = F) %>%
+  column_spec(2, width = "6cm") %>%
+  column_spec(1,bold = T, color = "purple") %>%
+  row_spec(0, bold = T, color = "white", background = "purple")
+
+# events %>%
+#  kable() %>%
+#  kable_styling(fixed_thead = T)
+
+```

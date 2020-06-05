@@ -1,0 +1,53 @@
+# Governance
+
+```{r kitty2, echo=FALSE, warning=FALSE}
+htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height=488, width=488)
+```
+
+
+## Meetings
+* Time requirements of Eagle IO members 
+    + Meetings are mandatory - there is one excused absence per academic year (Fall and Spring)
+        + If you miss *more than one* meeting, and cannot call or make other arrangements for your virtual attendence, you will be put on probation (1 semester term) 
+        + If you miss another meeting while on probation you will be expelled from Eagle IO and fed to **Sir pSyCaDeLiCaT** in an agonizingly painful yet exceedingly beautiful cerimony
+    + Keep track of the inbox *if you are Communications Officer*
+
+## [Mentorship Program Management](https://bookdown.org/kulasj/mentoruser/)
+* How to match mentors and mentees 
+    + Revisit the method used to match and whether other factors should be considered.
+    + Form a survey team to create a qualtrics survey and do the matching process
+    + Work to match along 5 dimensions: 
+        1. name
+        2. hometown
+        3. undergrad major/minor
+        4. part/full time, 
+        5. academic/applied 
+* Duration or partnership between mentee and mentor (semester or annual)
+    + Mandatory to keep them mentor/mentee partnership for a semester
+        
+* Involvement of professors in mentor program beyond Dr. Kulas and Dr. Dan
+    + Meetings between mentors and mentees at least 3 
+        + Meeting 1: Individual Development Plan
+        + Meeting 2: I/O related event
+        + Meeting 3: formal/informal event 
+
+## Consultant Development Plan 
+* Either have each consultant discuss and fill out their own individual development plan in terms of Eagle I.O. or have a development (filled out together) for the organization
+    + Potential skills: professional, technical, or R-related skills
+    + Meet with Kulas in *April of 1st year* to determine personal consultant goal that will be accomplished prior to graduation (in roughly 1 year)
+
+
+## What to do for *Legitimacy*
+
+If at some point Eagle I.O wishes to integrate within the broader MSU infrastructure, there are templates for doing so that exist at other Universities. Here is one recommended set of steps taken from the University of Texas:
+
+Share the Organization’s Structure: All students are required to write and submit a constitution. [See Chapter Two for sample constitution](https://www.utdallas.edu/soc/manual/04/#leadership)
+
++ Constitution and by-laws
++ Job descriptions/role classifications
++ Organizational goals and objectives
++ Status reports on ongoing projects
++ Evaluation of previous projects and programs
++ Resources and contact lists
++ Mailing lists
++ Historical records, scrapbooks, and equipment
