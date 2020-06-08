@@ -4,6 +4,7 @@
 htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height=488, width=488)
 ```
 
+oops
 
 ## Meetings
 * Time requirements of Eagle IO members 
